@@ -1,6 +1,6 @@
 package model;
 
-public abstract class Carro extends Veiculo{
+public abstract class Carro implements Veiculo{
 
     public String acelerar() {
         
