@@ -1,10 +1,12 @@
 package model;
 
-public class Carro extends Veiculo{
+public abstract class Carro extends Veiculo{
 
-	public Carro(String modelo, String marca) {
-		super(modelo, marca);
-		
-	}	
-	
+    public String acelerar() {
+        
+        return "Acelerando o veiculo";
+	}
+    
+    public abstract String frear();
+    
 }

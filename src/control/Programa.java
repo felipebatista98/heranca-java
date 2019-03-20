@@ -1,18 +1,17 @@
 package control;
 
-import model.Carro;
+import model.CarroVoador;
 import model.Moto;
 
 public class Programa {
 
 	public static void main(String[] args) {
 		
-		Carro carro = new Carro("Civic", "Honda");
-		Moto moto = new Moto("125cc", "cb1000");
+		//Carro carro = new Carro(); classe abstrata
+	    CarroVoador carro = new CarroVoador();
+	    Moto moto = new Moto();
 		
-	
 		System.out.println(carro.acelerar());
 		System.out.println(moto.acelerar());
 	}
-
 }

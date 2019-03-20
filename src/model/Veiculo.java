@@ -1,44 +1,17 @@
 package model;
 
-public class Veiculo {
-
-	private String modelo, marca;
-	
-
-
-	public Veiculo(String modelo, String marca) {
-		super();
-		this.modelo = modelo;
-		this.marca = marca;
-	}
-
-
-
-
+public abstract class Veiculo {
+    
+    //private final double constante = 3.0;
+    
+   // private int numeroRodas;
+    
 	public String acelerar() {
-		return "acelerando veiculo";
-		
+	    
+	    return "Acelerando o veiculo";
+	    
 	}
 	
-
-	public String getModelo() {
-		return modelo;
-	}
-
-	public void setModelo(String modelo) {
-		this.modelo = modelo;
-	}
-
-	public String getMarca() {
-		return marca;
-	}
-
-	public void setMarca(String marca) {
-		this.marca = marca;
-	}
-	
-	
-	
-	
+	public abstract String frear();
 	
 }

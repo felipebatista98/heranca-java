@@ -1,10 +1,15 @@
 package model;
 
 public class Moto extends Veiculo {
-	public Moto(String modelo, String marca) {
-		super(modelo, marca);
-		
-	}
 
-	
+    public String acelerar() {
+        
+        return "Acelerando a moto";
+		
+	}	
+   
+    public String frear(){
+        return "Freando a moto";
+    }
+    
 }
